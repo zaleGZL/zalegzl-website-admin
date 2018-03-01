@@ -82,7 +82,6 @@ const requestGetTags = () => (dispatch, getState) => {
     })
     .then(response => {
       const tags = response.data.data
-      console.log(tags)
       dispatch(successGetTags(tags))
       return 'success'
     })
