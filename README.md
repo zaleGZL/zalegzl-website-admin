@@ -1,10 +1,10 @@
 # 博客后台管理
 
-博客前台的项目地址: https://github.com/zaleGZL/zalegzl-website
+博客前台的项目地址: [https://github.com/zaleGZL/zalegzl-website](https://github.com/zaleGZL/zalegzl-website)
 
 ## 前言
 
-博客后台管理是基于 React + Antd 实现的，Antd 确实是非常适合中后台应用的开发，有非常多的组件可以使用，非常👍的一个 React UI 库。
+博客后台管理是基于 React + Antd 实现的，Antd 确实是非常适合中后台应用的开发，有非常多的组件可以使用，非常👍  的一个 React UI 库。
 
 如果你觉得项目不错的话，欢迎点击右上角 'star' 支持下，万分感谢! ~\(≧▽≦)/~
 
