@@ -109,8 +109,8 @@ class BlogList extends React.Component {
                     clearVisibleBlogId={this.clearVisibleBlogId}
                   />
                 ) : (
-                  undefined
-                )}
+                    undefined
+                  )}
               </span>,
               <IconText
                 type="clock-circle-o"

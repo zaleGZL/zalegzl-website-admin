@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { commonAPIPrefix, blogListQs, adminAPIPrefix } from '../constants'
 
-export const types = {
+const types = {
   // 获取博客列表
 
   START_GET_BLOGLIST: 'blogList/START_GET_BLOGLIST',

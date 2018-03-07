@@ -22,6 +22,12 @@ const menus = [
     to: '/tags',
     name: '标签',
     icon: 'tags-o'
+  },
+  {
+    key: 'mine',
+    to: '/mine',
+    name: '我的',
+    icon: 'user'
   }
 ]
 

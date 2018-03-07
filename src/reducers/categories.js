@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { adminAPIPrefix } from '../constants'
 
-export const types = {
+const types = {
   // 获取所有分类
 
   START_GET_CATEGORIES: 'categories/START_GET_CATEGORIES',

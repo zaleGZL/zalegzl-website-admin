@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { adminAPIPrefix } from '../constants'
 
-export const types = {
+const types = {
   // 获取所有标签
 
   START_GET_TAGS: 'tags/START_GET_TAGS',

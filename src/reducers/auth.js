@@ -2,7 +2,7 @@ import axios from 'axios'
 import { getIncorrectSignInToken } from './signIn'
 import { adminAPIPrefix } from '../constants'
 
-export const types = {
+const types = {
   START_VERIFY_TOKEN: 'auth/START_VERIFY_TOKEN',
   GET_CORRECT_TOKEN: 'auth/GET_CORRECT_TOKEN',
   GET_INCORRECT_TOKEN: 'auth/GET_INCORRECT_TOKEN',

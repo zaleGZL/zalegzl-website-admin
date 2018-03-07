@@ -7,13 +7,13 @@ import TagContentContainer from '../../components/TagContent'
 import { LoadingContent } from '../../components/Content'
 import CategoryContentContainer from '../../components/CategoryContent'
 import WriteBlogContentContainer from '../../components/WriteBlogContent'
-
+import MineContent from '../../components/MineContent'
 import BlogListContent from '../../components/BlogListContent'
 
 import { menus } from '../../constants'
 import { Layout } from 'antd'
 
-const StyledRightLayout = Styled(Layout)`
+const StyledRightLayout = Styled(Layout) `
   &&& {
     height: 100vh;
     overflow: scroll;
@@ -43,10 +43,12 @@ class MainPage extends React.Component {
         <StyledRightLayout id="my-scroll-layout">
           <Header collapsed={this.state.collapsed} toggle={this.toggle} />
           <Switch>
+            <Route exact path="/" component={BlogListContent} />
             <Route path="/home" component={BlogListContent} />
             <Route path="/writeblog" component={WriteBlogContentContainer} />
             <Route path="/categories" component={CategoryContentContainer} />
             <Route path="/tags" component={TagContentContainer} />
+            <Route path="/mine" component={MineContent} />
             <Route component={LoadingContent} />
           </Switch>
         </StyledRightLayout>

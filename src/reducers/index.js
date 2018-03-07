@@ -5,6 +5,7 @@ import tags from './tags'
 import categories from './categories'
 import writeBlog from './writeBlog'
 import blogList from './blogList'
+import mine from './mine'
 
 export default combineReducers({
   auth,
@@ -12,5 +13,6 @@ export default combineReducers({
   tags,
   categories,
   writeBlog,
-  blogList
+  blogList,
+  mine
 })
